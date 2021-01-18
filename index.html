@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="sr">
     <head>
         <title>Caroline Pham</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -9,35 +9,126 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+              </ul>
+        </header>
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="row">
+                      <div class="col">
+                        <div class="Hero">
+                            <img class="BigLogo" src="images/Caroline_Pham_Logos-05.png">
+                        </div>
                       </div>
+                      <div class="col">
+                        <div class="content">
+                            <h1>Hi!</h1>
+                            <p class="paragraph homeBio">I'm Caroline...
+                                <span id="whoami" style="display: inline;">an experience visual designer</span> 
+                                based in Orange County, with a passion and love for creating inclusive and intuitive designs.
+                            </p>
+                                <div class="cssChange">
+                                    <a href="https://drive.google.com/file/d/18xyLHugTsKbnunEIHeR2cz7fulBNTW2Y/view?usp=sharing">
+                                        <button type="button" class="btn btn-primary btn-lg">Resume</button></a>
+                                        
+                                    </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <div id="workarrow">
+                <a id="scrollbutton" href="#portfolio_links">View My Projects</a>
+                <img id="workarrow" src="images/ic_round-keyboard-arrow-down.png">
+            </div>
+            <section id="portfolio_links">
+                    <h1>Projects</h1>
+                    <div class="workGrid"></div>
+                        <div class="gridContainer">
+                        <div class="image">
+                            <img class="livingRoom" src="images/LivingRoom Thumbnail.png" width="513px" height="499px">
+                        </div>
+                        <div class="info">
+                            <h3>LivingRoom</h3>
+                            <p class="description">People find it difficult to visualize how furniture would fit their space when shopping for home furnishings. To solve this problem, I created a furniture AR app wher users are able to visualize their room's design before committing to buying furniture.</p>
+                            <div class="cssChange">
+                                <a href="#viewProject">
+                                    <button type="button" class="btn btn-primary btn-lg">View Project</button></a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gridContainer workcard2">
+                        <div class="image">
+                            <img class="government" src="images/Government Web Thumbnail.png" width="509px" height="498px">
+                        </div>
+                        <div class="info">
+                            <h3>Department of Energy Website Redesign</h3>
+                            <p class="description">Department of Energy Website had too much information and the navigation was confusing. To help make the navigation easier for the user, I aimed to simplify the navigation and interface to make it more straightforward.</p>
+                            <div class="cssChange">
+                                <a href="#viewProject">
+                                    <button type="button" class="btn btn-primary btn-lg">View Project</button></a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gridContainer">
+                        <div class="image">
+                            <img class="patriots" src="images/Patriots & Paws Thumbnail.png" width="509" height="498">
+                        </div>
+                        <div class="info">
+                            <h3>Patriots & Paws Website Redesign</h3>
+                            <p class="description">Redesigned Patriots & Paws’ website in order to better convey the organization’s mission in a simple, visually appealing manner where users are able to easily understand, donate, and view the website through their desktops and mobile devices.</p>
+                            <div class="cssChange">
+                                <a href="#viewProject">
+                                    <button type="button" class="btn btn-primary btn-lg">View Project</button></a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </section>
+        <footer>
+            <div class="copyright">
+                <span class="iconify" data-icon="la:copyright-solid"></span>
+                <span>Copyright 2020</span>
+            </div>
+            <div class="connect">
+                <span>Let's Connect:</span>
+                <ul class="footer">
+                    <li class="footerTab">
+                        <a href="mailto: carolinepham1234@gmail.com">
+                            <span class="iconify" data-icon="eva:email-outline"></span>
+                            </a>
+                    </li>
+                    <li class="footerTab">
+                        <a href="https://www.instagram.com/c_pham_in_phamily/">
+                            <span class="iconify" data-icon="carbon:logo-instagram"></span>
+                            </a>
+                    </li>
+                    <li class="footerTab">
+                        <a href="https://www.linkedin.com/in/caroline-pham-686b1313b/">
+                            <span class="iconify" data-icon="jam:linkedin-square"></span>
+                            </a>
                     </li>
                   </ul>
-                </div>
-              </nav>
-        </header>
+                <ul>
+            </div>
+    </footer>
+    <div class="preloader">
+        <img src="images/Preloader.gif">
+    </div>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
