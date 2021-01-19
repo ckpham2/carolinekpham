@@ -31,5 +31,3 @@ $(".scrollbutton").click(function () {
         }, 3000);
           
     })();
-
-    ScrollReveal().reveal('.hero-content');
