@@ -12,13 +12,12 @@ $(".scrollbutton").click(function () {
 });
 
 
-
-
     (function changeWord(){
         var words = [
             'an artist',
             'a Vietnamese American',
             'a tea lover',
+            'a creative soul',
             'your friend',
             'a perfectionist',
             'a former collegiate track athlete',

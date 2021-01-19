@@ -12,6 +12,7 @@ body {
 }
 .col {
     margin-top: 20px;
+    margin-left: 20px !important;
 }
 .content {
     margin-top: 30%;
@@ -49,6 +50,9 @@ p {
 .nav-item {
     font-size: 20pt;
 }
+.nav-link {
+    padding: .5rem 3rem !important;
+}
 .nav-link:hover {
     color: #4A807B !important;
 }
@@ -56,7 +60,7 @@ p {
     height: auto;
 }
 button {
-    display: block;
+    display: block !important;
     margin: 0 auto;
     padding: 15px;
     width: 150px;
@@ -66,7 +70,13 @@ button {
     border: none !important;
     border-radius: 25px !important;
     background-color: #D8E8E7 !important;
-    text-decoration: none;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+button:hover {
+    background-color: #4A807B !important;
+    color: #ffffff !important;
 }
 .cssChange {
     display: block;
@@ -83,6 +93,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
     margin-bottom: 5%;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
@@ -127,7 +138,7 @@ button {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 li {
     font-size: 26px;
@@ -154,6 +165,9 @@ footer div {
 footer .connect {
     width: 70%;
     text-align: right;
+}
+.footer-Tab:hover {
+    color: #4A807B !important;
 }
 footer ul li a{
     padding: 0 15px;
