@@ -1,7 +1,6 @@
 link {
     display: none;
 }
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -25,6 +24,9 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
+.uxui {
+    margin-top: 50px;
+}
 h3 {
     font-size: 26pt;
     font-weight: bold;
@@ -43,6 +45,9 @@ p {
     font-size: 20pt;
     text-align: justify;
     line-height: auto;
+}
+.navbar {
+    background-color: #ffffff !important;
 }
 .nav-item {
     font-size: 20pt;
@@ -151,39 +156,36 @@ li {
     padding: 14px 16px;
     text-decoration: none;
   }
-
+#connect {
+    font-size: 16pt;
+}
+#connect1 {
+    font-size: 13pt;
+}
 footer {
     margin-top: 100px;
 }
 footer div {
     display: inline-block;
 }
-.footer {
-    display: inline-flex;
-}
-footer .connect {
-    width: 70%;
-    text-align: right;
-}
-.footer-Tab:hover {
-    color: #4A807B !important;
-}
 footer ul li a{
     padding: 0 15px;
 }
 .livingRoom, .patriots {
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
     margin-right: 60px;
 }
 .government {
     box-shadow: -10px 10px 8px rgba(0, 0, 0, 0.3);
     margin-left: 60px;
+    margin-right: 40px;
 }
 .description {
     margin-right: 50px;
     margin-left: 50px;
     text-align: justify;
-    font-size: 17pt;
+    font-size: 18pt !important;
     border: 20px;
     padding: 20px;
 }
@@ -238,8 +240,8 @@ margin-left: 40px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-areas: 'info image';
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .workcard2 {
     grid-template-areas: 'image info';
