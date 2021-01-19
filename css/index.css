@@ -9,7 +9,6 @@ body {
     padding: 10px;
 }
 .col {
-    margin-top: 20px;
     margin-left: 20px !important;
 }
 .content {
@@ -91,7 +90,6 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
     margin-bottom: 5%;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
