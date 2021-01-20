@@ -14,10 +14,10 @@ $(".scrollbutton").click(function () {
 
     (function changeWord(){
         var words = [
-            'an artist',
             'a Vietnamese American',
-            'a tea lover',
             'a creative soul',
+            'a tea lover',
+            'an artist',
             'your friend',
             'a perfectionist',
             'a former collegiate track athlete',
@@ -28,6 +28,6 @@ $(".scrollbutton").click(function () {
             $('#whoami').fadeOut(function changeWord(){
                 $(this).html(words[i=(i+1)%words.length]).fadeIn();
             });
-        }, 3000);
+        }, 3300);
           
     })();
