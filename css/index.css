@@ -309,26 +309,6 @@ margin-left: 40px;
 .email {
     display: flex;
 }
-.graphics-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  row-gap: 50px;
-  width: 100%;
-  margin: 0px auto;
-}
-
-.graphics-container div {
-  text-align: center;
-}
-
-.graphics-container div img {
-  margin-bottom: 20px;
-  text-align: center;
-  width: 100%;
-}
 
 @media only screen and (min-width: 600) {
     .flexContainer {
@@ -361,69 +341,124 @@ margin-left: 40px;
                              'image'
                              'info';
     }
-    .skills-container,
-    .hobbies-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      justify-content: center;
-      align-items: center;
-      row-gap: 50px;
-      width: 100%;
-      margin: 0px auto;
-    }
 } 
-  .c-preview:before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    transition: height 0.5s ease-out;
-    background: linear-gradient(to bottom, transparent 0%, black 100%);
-  }
+.card {
+    width: auto !important;
+}
+.center {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center2 {
+    position: relative;
+    height: 258px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center3 {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center4 {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center5 {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center6 {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center7 {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
 
-  .c-preview_img {
+.center8 {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center .center2 .center3 .center4 .center5 .center6 .center7 .center8 .gradientimg {
     position: absolute;
-    left: 0;
     top: 0;
-    background: no-repeat center center;
-  background-size: cover;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.center:hover {
+    background-position: 100% 100%;
+}
+.center:hover .overlay-xs-1{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-sim-text-2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
     width: 100%;
     height: 100%;
-    z-index: 1;
-    opacity: .5;
-    mix-blend-mode: screen;
-  }
-  .c-preview__title {
-    position: relative;
-    z-index: 10;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-  }
-.c-preview {
-  background: #000;
-  background: -moz-linear-gradient(-45deg, #ffffff 25%, #1e539e 50%, #ff3083 75%, #7800a8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,#ffffff 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,#ffffff 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  background-size: 400% 400%;
-  background-repeat: no-repeat;
-  display: flex;
-  width: auto;
-  height: auto;
-  max-width: 100vw;
-  max-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  color: #fff !important;
-  position: relative;
-  cursor: pointer;
-  transition: .5s all;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-.c-preview:hover {
-    background-position: 100% 100%;
-    
-
-  }
-.c-preview__title {
-    text-shadow: 0 0 8px rgba(0,0,0,0.3);
-  }
+.cover-text {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-right: 40px;
+}
