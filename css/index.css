@@ -41,7 +41,7 @@ p {
 }
 /*Navigation Bar*/
 .navbar {
-    background-color: #ffffff !important;
+    background-color: transparent !important;
 }
 .nav-item {
     font-size: 20pt;
@@ -774,4 +774,94 @@ margin-left: 40px;
     padding-left: 0 !important;
     margin-left: 0 !important;
     padding-right: 40px;
+}
+/*LivingRoom Case Study*/
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: #1D1F1E;
+    margin: 0px;
+    text-align: left;
+    margin-right: 700px;
+    margin-bottom: 250px;
+  } 
+  .jumbotron {
+    background-image: url(../images/LivingRoom_Hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 0px !important;
+  }
+  .display-4 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    vertical-align: top;
+}
+.lead {
+    display: flex !important;
+    align-items: left !important;
+    justify-content: left !important;
+    margin: 0px !important;
+}
+  .colorBlock {
+    background-color: #D8E8E7;
+    padding: 20px;
+}
+.casestudy-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+}
+.casestudy-userImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+}
+.livingHeading {
+    font-size: 16pt;
+}
+.livingroom-text {
+    font-size: 14pt !important;
+}
+.livingroom-text2 {
+    font-size: 14pt !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.livingroom-text3 {
+    font-size: 14pt !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.caseStudy {
+    align-items: center !important;
+    justify-content: center;
+}
+.casestudy-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.casestudy-heading {
+    font-size: 26pt;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
 }
