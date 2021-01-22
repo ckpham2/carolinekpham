@@ -124,7 +124,7 @@ button:hover {
     text-decoration: none;
 }
 /*Homepage Hero Section*/
-.col {
+.home-col {
     margin-left: 20px !important;
 }
 .content {
@@ -787,7 +787,7 @@ margin-left: 40px;
     margin-bottom: 250px;
   } 
   .jumbotron {
-    background-image: url(../images/LivingRoom_Hero.png);
+    background-image: url(../images/LivingRoom_Hero.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -811,16 +811,25 @@ margin-left: 40px;
 }
   .colorBlock {
     background-color: #D8E8E7;
-    padding: 20px;
+    padding: 40px;
+}
+.img-fluid {
+    max-width: 100% !important;
+    height: auto !important;
 }
 .casestudy-image {
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     margin-bottom: 0px !important;
+}
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .casestudy-userImage {
     background-size: cover;
@@ -830,11 +839,17 @@ margin-left: 40px;
     justify-content: center;
     margin-bottom: 0px !important;
 }
+.container {
+    margin-top: 50px;
+    padding-left: 180px !important;
+
+}
 .livingHeading {
-    font-size: 16pt;
+    font-size: 16pt !important;
 }
 .livingroom-text {
     font-size: 14pt !important;
+    margin-left: 0 !important;
 }
 .livingroom-text2 {
     font-size: 14pt !important;
@@ -851,10 +866,12 @@ margin-left: 40px;
 .caseStudy {
     align-items: center !important;
     justify-content: center;
+    margin-top: .5rem;
+    padding-top: 10px;
 }
 .casestudy-body {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-left: 40px;
     padding-right: 30px;
 }
@@ -865,3 +882,53 @@ margin-left: 40px;
     align-items: left;
     justify-content: left;
 }
+.livingHeading {
+	-webkit-animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes livingHeading {
+    0% {
+      -webkit-transform: translateY(300px);
+              transform: translateY(300px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  @keyframes livingHeading {
+    0% {
+      -webkit-transform: translateY(300px);
+              transform: translateY(300px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  .caseStudy {
+	-webkit-animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes caseStudy {
+    0% {
+      -webkit-transform: translateY(300px);
+              transform: translateY(300px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  @keyframes caseStudy {
+    0% {
+      -webkit-transform: translateY(300px);
+              transform: translateY(300px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }

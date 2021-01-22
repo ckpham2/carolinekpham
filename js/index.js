@@ -33,3 +33,23 @@ $(".scrollbutton").click(function () {
     })();
 
     ScrollReveal().reveal('.hero-content');
+  
+  
+  // Anchor Scroll
+  $(document).ready(function() {
+  
+  var scrollLink = $('.scroll');
+  
+  scrollLink.click(function(e) {
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 1100);
+  });
+  
+  })
+  // AOS Animations
+  AOS.init({
+  duration: 1200,
+  })
+  
