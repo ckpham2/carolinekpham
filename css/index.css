@@ -7,12 +7,7 @@ body {
     border: 15px;
     padding: 10px;
 }
-.col {
-    margin-left: 20px !important;
-}
-.content {
-    margin-top: 30%;
-}
+/*Font Styles*/
 h1 {
     font-size: 64pt;
     font-weight: bold;
@@ -24,9 +19,7 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
-.uxui {
-    margin-top: 50px;
-}
+
 h3 {
     font-size: 26pt;
     font-weight: bold;
@@ -46,9 +39,180 @@ p {
     text-align: justify;
     line-height: auto;
 }
+/*Navigation Bar*/
+.navbar {
+    background-color: #ffffff !important;
+}
+.nav-item {
+    font-size: 20pt;
+}
+.nav-link {
+    padding: .5rem 3rem !important;
+}
+.nav-link:hover {
+    color: #4A807B !important;
+}
+a {
+    text-decoration: none !important;
+}
+li {
+    font-size: 26px;
+    display: flex;
+  }
+  li a {
+    display: block;
+    color: #1D1F1E;
+    text-align: center;
+    font-size: 20pt;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*button style & animations*/
+button {
+    display: block !important;
+    margin: 0 auto;
+    padding: 15px;
+    width: 150px;
+    font-size: 18px !important;
+    text-align: center;
+    color: #1D1F1E !important;
+    border: none !important;
+    border-radius: 25px !important;
+    background-color: #D8E8E7 !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+.secondbtn {
+    background-color: #B1CFF5 !important;
+}
+button:hover {
+    background-color: #4A807B !important;
+    color: #ffffff !important;
+}
+.secondbtn:hover {
+    background-color: #1E74E2 !important;
+}
+.button3 {
+    display: block !important;
+    margin: 0 auto;
+    margin-top: 5px !important;
+    padding: 0px;
+    width: 140px !important;
+    font-size: 18px !important;
+    text-align: right;
+    justify-content: right !important;
+    align-items: right !important;
+    color: #1D1E1F !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    line-height: 40px;
+}
+.button3:hover {
+    background-color: transparent !important;
+    color: #1964C4 !important;
+
+}
+.cssChange {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #4A807B;
+    color: #1D1F1E;
+    box-shadow: 0px 4px 4px grey;
+    text-decoration: none;
+}
+/*Homepage Hero Section*/
+.col {
+    margin-left: 20px !important;
+}
+.content {
+    margin-top: 60px;
+    padding-top: 40px;
+}
+.homeBio {
+    font-size: 24pt !important;
+}
+#whoami {
+    font-weight: 600;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 0.25px;
+    -webkit-text-stroke-color: #4A807B;
+}
+/*HomePage Scroll Reveal*/
+#workarrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+#scrollbutton {
+    text-decoration: none;
+    color: #1D1F1E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.2s ease 0s;
+    margin-bottom: 0;
+}
+#scrollbutton:hover {
+    color: #4A807B;
+}
 .projects {
     margin-top: 20px;
     padding-top: 10px;
+}
+/*Loading Page animation*/
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /* footer style */
+#connect {
+    font-size: 16pt;
+}
+#connect1 {
+    font-size: 13pt;
+}
+footer {
+    margin-top: 100px;
+}
+footer div {
+    display: inline-block;
+}
+footer ul li a{
+    padding: 0 15px;
+}
+.iconify {
+    height: auto;
+}
+/* grid and UX|UI page style */
+.uxui {
+    margin-top: 50px;
 }
 .subtitle {
     border-radius: 5px;
@@ -91,137 +255,6 @@ p {
     justify-content: center;
     line-height: auto;
     margin-left: 60px;
-}
-.navbar {
-    background-color: #ffffff !important;
-}
-.nav-item {
-    font-size: 20pt;
-}
-.nav-link {
-    padding: .5rem 3rem !important;
-}
-.nav-link:hover {
-    color: #4A807B !important;
-}
-.iconify {
-    height: auto;
-}
-button {
-    display: block !important;
-    margin: 0 auto;
-    padding: 15px;
-    width: 150px;
-    font-size: 18px !important;
-    text-align: center;
-    color: #1D1F1E !important;
-    border: none !important;
-    border-radius: 25px !important;
-    background-color: #D8E8E7 !important;
-    text-decoration: none !important;
-    box-shadow: none !important;
-}
-.secondbtn {
-    background-color: #B1CFF5 !important;
-}
-
-button:hover {
-    background-color: #4A807B !important;
-    color: #ffffff !important;
-}
-.secondbtn:hover {
-    background-color: #1E74E2 !important;
-}
-.cssChange {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    border-radius: 25px;
-    background-color: #4A807B;
-    color: #1D1F1E;
-    box-shadow: 0px 4px 4px grey;
-    text-decoration: none;
-}
-#workarrow {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-15px);
-    }
-    60% {
-      transform: translateY(-5px);
-    }
-  }
-#whoami {
-    font-weight: 600;
-    -webkit-text-fill-color: #ffffff;
-    -webkit-text-stroke: 0.25px;
-    -webkit-text-stroke-color: #4A807B;
-}
-#scrollbutton {
-    text-decoration: none;
-    color: #1D1F1E;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 15px;
-    transition: all 0.2s ease 0s;
-    margin-bottom: 0;
-}
-#scrollbutton:hover {
-    color: #4A807B;
-}
-.preloader {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 100000;
-    background-color: white;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-a {
-    text-decoration: none !important;
-}
-li {
-    font-size: 26px;
-    display: flex;
-  }
-  li a {
-    display: block;
-    color: #1D1F1E;
-    text-align: center;
-    font-size: 20pt;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-#connect {
-    font-size: 16pt;
-}
-#connect1 {
-    font-size: 13pt;
-}
-footer {
-    margin-top: 100px;
-}
-footer div {
-    display: inline-block;
-}
-footer ul li a{
-    padding: 0 15px;
 }
 .livingRoom, .streetsamaritan {
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
@@ -285,7 +318,7 @@ margin-left: 40px;
     padding-left: 70px;
     padding-right: 40px;
     }
-    .gridColumns3 {
+.gridColumns3 {
         padding-left: 30px;
         padding-right: 50px;
         margin-right: 40px;
@@ -294,7 +327,7 @@ margin-left: 40px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-areas: 'info image';
-    margin-top: 120px;
+    margin-top: 50px;
     margin-bottom: 120px;
 }
 .workcard2 {
@@ -303,14 +336,12 @@ margin-left: 40px;
 .flexContainer {
     display: flex;
 }
-.iconify {
-    height: auto;
-}
+
 .email {
     display: flex;
 }
-
-@media only screen and (min-width: 600) {
+/* Media Screen Adjusting for Mobile*/
+@media only screen and (min-width: 576) {
     .flexContainer {
         flex-direction: column;
         width: 100%;
@@ -342,6 +373,14 @@ margin-left: 40px;
                              'info';
     }
 } 
+/* hovereffect on graphic design tiles */
+.tileinfo {
+    margin: 0 auto;
+}
+.g-design {
+    margin-bottom: 50px !important;
+}
+    /*Ernest Way Tile Hover*/
 .card {
     width: auto !important;
 }
@@ -355,78 +394,7 @@ margin-left: 40px;
     cursor: pointer;
     transition: .5s all;
 }
-.center2 {
-    position: relative;
-    height: 258px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center3 {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center4 {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center5 {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center6 {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center7 {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-
-.center8 {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center .center2 .center3 .center4 .center5 .center6 .center7 .center8 .gradientimg {
+.center .gradientimg {
     position: absolute;
     top: 0;
     left: 0;
@@ -460,5 +428,350 @@ margin-left: 40px;
 .cover-text {
     font-size: 10pt !important;
     padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Dimweight Tile Hover*/
+.dimweight {
+    position: relative;
+    height: 258px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.dimweight .weightimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.dimweight:hover {
+    background-position: 100% 100%;
+}
+.dimweight:hover .overlay-1{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Skin2beenvied Tile Hover*/
+.skin2beenvied {
+    position: relative;
+    height: 260px;
+    width: 343px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.skin2beenvied .skinimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.skin2beenvied:hover {
+    background-position: 100% 100%;
+}
+.skin2beenvied:hover .overlay-2{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-2 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Packaging Assembly Tile Hover*/
+.packaging {
+    position: relative;
+    height: 259px;
+    width: 345px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.packaging .pkgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.packaging:hover {
+    background-position: 100% 100%;
+}
+.packaging:hover .overlay-3{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-4{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-3 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Encore Tile Hover*/
+.encore {
+    position: relative;
+    height: 321px;
+    width: 345px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.encore .encoreimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.encore:hover {
+    background-position: 100% 100%;
+}
+.encore:hover .overlay-4{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-5{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-4 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Ernies Snapchat Tile Hover*/
+.geofilter {
+    position: relative;
+    height: 266px;
+    width: 342px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.geofilter .filterimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.geofilter:hover {
+    background-position: 100% 100%;
+}
+.geofilter:hover .overlay-5{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-6{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-5 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Donut Wall Tile Hover*/
+.donut {
+    position: relative;
+    height: 439px;
+    width: 345px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.donut .donutimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.donut:hover {
+    background-position: 100% 100%;
+}
+.donut:hover .overlay-6 {
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-7{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-6 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Appreciation Card Tile Hover*/
+.appreciation {
+    position: relative;
+    height: 408px;
+    width: 340px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.appreciation .apprec-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.appreciation:hover {
+    background-position: 100% 100%;
+}
+.appreciation:hover .overlay-7 {
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-8{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-7 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
     padding-right: 40px;
 }
