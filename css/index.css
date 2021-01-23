@@ -140,6 +140,12 @@ button:hover {
     -webkit-text-stroke: 0.25px;
     -webkit-text-stroke-color: #4A807B;
 }
+#whoami2 {
+    font-weight: 600;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 0.25px;
+    -webkit-text-stroke-color: #4A807B;
+}
 /*HomePage Scroll Reveal*/
 #workarrow {
     display: flex;

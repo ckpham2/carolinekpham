@@ -22,10 +22,24 @@ $(".scrollbutton").click(function () {
             'a perfectionist',
             'a former collegiate track athlete',
             'a Scout Leader',
-            'a UX UI Designer'
+            'a UX UI Designer',
+            'a Visual Designer'
             ], i = 0;
         setInterval(function changeWord(){
             $('#whoami').fadeOut(function changeWord(){
+                $(this).html(words[i=(i+1)%words.length]).fadeIn();
+            });
+        }, 3300);
+          
+    })();
+
+    (function changeWord(){
+        var words = [
+            'Xin Chao,',
+            'Hi,'
+            ], i = 0;
+        setInterval(function changeWord(){
+            $('#whoami2').fadeOut(function changeWord(){
                 $(this).html(words[i=(i+1)%words.length]).fadeIn();
             });
         }, 3300);
