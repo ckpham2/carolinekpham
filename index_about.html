@@ -11,22 +11,24 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">
-                    <img id="smallLogo" src="images/CarolinePham_Logos-small.png" width="69px" height="55px">
-                </a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="index_about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="index_uxui.html">UX | UI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index_graphicdesign.html">Graphic Design</a>
-                      </li>
-                  </ul>
-            </nav>
+          <nav class="navbar">
+            <a href="index.html" class="logo">
+              <img id="smallLogo" src="images/CarolinePham_Logos-small.png" width="69px" height="55px">
+            </a>
+            <span class="navbar-toggle" id="js-navbar-toggle" onclick="openNav(), closeNav()">
+              <span class="iconify" data-inline="false" data-icon="radix-icons:hamburger-menu" style="font-size: 41px;"></span>
+            </span>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index_about.html" class="nav-links">About</a>
+                </li>
+                <li>
+                    <a href="index_uxui.html" class="nav-links">UX | UI</a>
+                </li>
+                <li>
+                    <a href="index_graphicdesign.html" class="nav-links">Graphic Design</a>
+                </li>
+          </nav>
         </header>
             <section class="hero">
                 <div class="hero-content">
@@ -37,14 +39,14 @@
                         </div>
                       </div>
                       <div class="col">
-                        <div class="hero-content content">
+                        <div class="hero-content">
                             <h2>
                               <span id="whoami2" style="display: inline;">Hi,</span> 
                               I'm Caroline!
                             </h2>
                             <div class="business">
                               <h3>I have backgrounds in visual design & business marketing</h3>
-                              <p> I studied business marketing in undergrad and took some class in graphic design. I have honed my visual design skills through my job as a Marketing Administrator as well as on my free time. These experiences brought me prespective and skills that will help me as a UX/UI Designer. Cause, in essence, my mission has always been to help people through understanding their needs.</p>
+                              <p> I studied business marketing in undergrad and took some classes in graphic design. I have honed my visual design skills through my job as a Marketing Administrator as well as on my free time. As a creative soul and UX/UI Designer, I find deep meaning and passion in the art of storytelling and collaboration. Being well-versed in branding, visual and interaction design, I strive to bridge intuitive design & interactions with seamless user experiences to help elevate users' needs and goals through memorable, minimal interfaces. I believe that understanding the heart and vision of an idea while keeping in mind the users' needs throughout the entire design process is vital to creating unique and happy experiences for all users.</p>
                             </div>
                                 <div class="cssChange">
                                     <a href="https://drive.google.com/file/d/18xyLHugTsKbnunEIHeR2cz7fulBNTW2Y/view?usp=sharing">
@@ -54,6 +56,66 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div class="hero-content">
+                    <div class="row">
+                      <div class="col">
+                        <div class="hero-content content">
+                          <div class="Hobbies">
+                            <h3>I have backgrounds in visual design & business marketing</h3>
+                            <p>I'm a fitness enthusiast due to being a former collegiate track athlete. I enjoy drawing and creating art on my free time. Aside from designing, you can find me hiking, volunteering my time as a scout leader shaping young, future leaders. I enjoy spending time with family & friends. I enjoy solo traveling, as it allows me to step outside my comfort zone while making new friends and experiences.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col about-gap">
+                        <div class="hero-content">
+                          <img src="images/Bio Picture.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <section id="skills">
+                    <div class="section-header">
+                      <div>
+                        <h3 class="skills-title">What I'm Good At</h3>
+                      </div>
+                    </div>
+              
+                    <div class="skills-container">
+                      <div>
+                        <img src="images/Skills/product-design.png" alt="monitor with pencil brush and ruler"/>
+                        <p class="skills-sub">Digital Product Design</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/strategy.png" alt="outline of man with brain open"/>
+                        <p class="skills-sub">UX Strategy</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/graphic_design.png" alt="pen tool"/>
+                        <p class="skills-sub">Graphic Design</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/coding.png" alt="closing brackets on a monitor"/>
+                        <p class="skills-sub">Front-End Development</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/video_editing.png" alt="adobe premiere running on a monitor"/>
+                        <p class="skills-sub">Video Editing</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/research.png" alt="magnifying glass and man"/>
+                        <p class="skills-sub">User Research</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/photography.png" alt="camera"/>
+                        <p class="skills-sub">Photography</p>
+                      </div>
+                      <div>
+                        <img src="images/Skills/branding.png" alt="a jewel inside a ribbon"/>
+                        <p class="skills-sub">Branding</p>
+                      </div>
+                    </div>
+                  </section>
                   </div>
             </section>
             <footer>

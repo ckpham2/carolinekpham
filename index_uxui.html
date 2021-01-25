@@ -11,25 +11,27 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">
-                    <img id="smallLogo" src="images/CarolinePham_Logos-small.png" width="69px" height="55px">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                  <img id="smallLogo" src="images/CarolinePham_Logos-small.png" width="69px" height="55px">
                 </a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="index_about.html">About</a>
+                <span class="navbar-toggle" id="js-navbar-toggle" onclick="openNav(), closeNav()">
+                  <span class="iconify" data-inline="false" data-icon="radix-icons:hamburger-menu" style="font-size: 41px;"></span>
+                </span>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="index_about.html" class="nav-links">About</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="index_uxui.html">UX | UI</a>
+                    <li>
+                        <a href="index_uxui.html" class="nav-links">UX | UI</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index_graphicdesign.html">Graphic Design</a>
-                      </li>
-                  </ul>
-            </nav>
+                    <li>
+                        <a href="index_graphicdesign.html" class="nav-links">Graphic Design</a>
+                    </li>
+              </nav>
         </header>
             <section>
-                    <h3 class="uxui">UX | UI Design Case Studies</h3>
+                    <h3 class="uxui">UX | UI Design Projects</h3>
                     <div class="workGrid"></div>
                     <div class="gridContainer">
                     <div class="image">
