@@ -225,10 +225,10 @@ button:hover {
     -webkit-text-stroke-color: #4A807B;
 }
 #whoami2 {
-    font-weight: 600;
-    -webkit-text-fill-color: #ffffff;
-    -webkit-text-stroke: 0.25px;
-    -webkit-text-stroke-color: #4A807B;
+    font-weight: 600 !important;
+    -webkit-text-fill-color: #ffffff !important;
+    -webkit-text-stroke: 0.25px !important;
+    -webkit-text-stroke-color: #4A807B !important;
 }
 /*HomePage Scroll Reveal*/
 #workarrow {
@@ -303,6 +303,7 @@ footer ul li a{
 /* grid and UX|UI page style */
 .uxui {
     margin-top: 50px;
+    font-size: 32pt !important;
 }
 .subtitle {
     border-radius: 5px;
@@ -364,103 +365,74 @@ footer ul li a{
     border: 20px;
     padding: 20px;
 }
-.workGrid {
-    display: grid;
-}
-.image {
-    grid-area: image;
-}
-.info {
-    grid-area: info;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 30px;
-}
-.title {
-    grid-area: title;
-}
-.titleInfo {
-    grid-area: titleInfo;
-}
-.container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto
-                        auto;
-    grid-template-areas: 'title title'
-                         'titleInfo titleInfo';
-}
-.userContainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-.grid-item {
-    padding: 5px;
-    font-size: 30px;
-    text-align: center;
-}
-.gridColumns1 {
-padding-left: 80px;
-padding-right: 30px;
-margin-left: 40px;
-}
-.gridColumns2 {
-    padding-left: 70px;
-    padding-right: 40px;
-    }
-.gridColumns3 {
-        padding-left: 30px;
-        padding-right: 50px;
-        margin-right: 40px;
-        }
-.gridContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: 'info image';
-    margin-top: 50px;
-    margin-bottom: 120px;
-}
-.workcard2 {
-    grid-template-areas: 'image info';
-}
-.flexContainer {
+.portfoliotitle {
+    height: 20vh;
+    margin: 20px;
     display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
 }
+.uxui-gridContainer {
+    display: grid;
+    column-gap: 5em;
+    row-gap: 10em;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "livingroomContent livingroomPhoto"
+        "patriotsPhoto patriotsContent"
+        "streetContent streetPhoto";
+    margin: 20px;
+}
+#livingroomPhoto {
+    grid-area: livingroomPhoto;
+}
+#livingroomContent {
+    grid-area: livingroomContent;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+#patriotsPhoto {
+    grid-area: patriotsPhoto;
+}
+#patriotsContent {
+    grid-area: patriotsContent;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+#streetPhoto {
+    grid-area: streetPhoto;
+}
+#streetContent {
+    grid-area: streetContent;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+  .uxuiGridArea {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
 
 .email {
     display: flex;
 }
 /* Media Screen Adjusting for Mobile*/
 @media only screen and (min-width: 600) {
-    .flexContainer {
-        flex-direction: column;
-        width: 100%;
-    }
-    .workGrid {
+    .uxui-gridContainer {
         display: grid;
-    }
-    .image {
-        grid-area: image;
-    }
-    .info {
-        grid-area: info;
-        text-align: center;
-    }
-    .gridContainer {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto 
-                            auto 
-                            auto 
-                            auto 
-                            auto 
-                            auto;
-        grid-template-areas: 'image'
-                             'info'
-                             'image'
-                             'info'
-                             'image'
-                             'info';
+        column-gap: 10em;
+        row-gap: 5em;
+        grid-template-rows: 25% 25% 25% 25% 25% 25%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "livingroomPhoto"
+        "livingroomContent" 
+        "patriotsPhoto"
+        "patriotsContent"
+        "streetPhoto"
+        "streetContent";
     }
 } 
 /* hovereffect on graphic design tiles */
@@ -1024,7 +996,15 @@ margin-left: 40px;
     }
   }
   /*About Skills Section*/
-#about-gridContainer {
+#aboutMe {
+    height: 20vh;
+    margin: 20px;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+  #about-gridContainer {
     display: grid;
     column-gap: 5em;
     row-gap: 5em;
@@ -1033,11 +1013,27 @@ margin-left: 40px;
     grid-template-areas: 
         "bioPhoto bioContent"
         "freetimeContent freetimePhoto";
+    margin: 20px;
+}
+#bioPhoto {
+    grid-area: bioPhoto;
+}
+#bioContent {
+    grid-area: bioContent;
+}
+#freetimePhoto {
+    grid-area: freetimePhoto;
+}
+#freetimeContent {
+    grid-area: freetimeContent;
 }
   .aboutmeGridArea {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+  }
+  #bioPhoto img, #freetimePhoto img {
+      width: 100%;
   }
   .skills-title {
       margin-bottom: 40px;
@@ -1090,25 +1086,17 @@ margin-left: 40px;
   @media screen and (max-width: 600px) {
     #about-gridContainer {
         display: grid;
-        column-gap: 0.5em;
-        row-gap: 0.5em;
+        column-gap: 10em;
+        row-gap: 5em;
         grid-template-rows: 25% 25% 25% 25%;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "bioPhoto"
             "bioContent"
-            "freetimeContent"
-            "freetimePhoto";
+            "freetimePhoto"
+            "freetimeContent";
     }
   }
-.about-textcol {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-}
-.about-gap {
-    margin-top: 60px !important;
-    margin-bottom: 40px !important;
-}
   /*modal*/
 /* The Modal (background) */
 .modal {
