@@ -42,7 +42,7 @@ $(".scrollbutton").click(function () {
             $('#whoami2').fadeOut(function changeWord(){
                 $(this).html(words[i=(i+1)%words.length]).fadeIn();
             });
-        }, 3000);
+        }, 2000);
           
     })();
 

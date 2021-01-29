@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 26pt;
+    font-size: 20pt;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ h4 {
 p {
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 18pt;
+    font-size: 16pt;
     text-align: justify;
     line-height: auto;
 }
@@ -282,6 +282,7 @@ button:hover {
     justify-content: center;
 }
   /* footer style */
+  
 #connect {
     font-size: 16pt;
 }
@@ -289,7 +290,7 @@ button:hover {
     font-size: 13pt;
 }
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 footer div {
     display: inline-block;
@@ -304,6 +305,10 @@ footer ul li a{
 .uxui {
     margin-top: 50px;
     font-size: 32pt !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .subtitle {
     border-radius: 5px;
@@ -347,16 +352,6 @@ footer ul li a{
     line-height: auto;
     margin-left: 60px;
 }
-.livingRoom, .streetsamaritan {
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-    margin-left: 30px;
-    margin-right: 60px;
-}
-.patriots {
-    box-shadow: -10px 10px 8px rgba(0, 0, 0, 0.3);
-    margin-left: 60px;
-    margin-right: 40px;
-}
 .description {
     margin-right: 50px;
     margin-left: 50px;
@@ -364,14 +359,6 @@ footer ul li a{
     font-size: 18pt !important;
     border: 20px;
     padding: 20px;
-}
-.portfoliotitle {
-    height: 20vh;
-    margin: 20px;
-    display: flex;
-    padding: 2%;
-    align-items: center;
-    justify-content: center;
 }
 .uxui-gridContainer {
     display: grid;
@@ -383,10 +370,22 @@ footer ul li a{
         "livingroomContent livingroomPhoto"
         "patriotsPhoto patriotsContent"
         "streetContent streetPhoto";
-    margin: 20px;
+    padding: 50px 50px;
+}
+#livingroomPhoto img, #streetPhoto img {
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: auto;
+}
+#patriotsPhoto img {
+    box-shadow: -10px 10px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: auto;
 }
 #livingroomPhoto {
     grid-area: livingroomPhoto;
+    max-width: 495px;
+    max-height: 481px;
 }
 #livingroomContent {
     grid-area: livingroomContent;
@@ -395,14 +394,16 @@ footer ul li a{
 }
 #patriotsPhoto {
     grid-area: patriotsPhoto;
+    max-width: 491px;
+    max-height: 480px;
 }
 #patriotsContent {
     grid-area: patriotsContent;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
 }
 #streetPhoto {
     grid-area: streetPhoto;
+    max-width: 491px;
+    max-height: 480px;
 }
 #streetContent {
     grid-area: streetContent;
@@ -415,26 +416,6 @@ footer ul li a{
       justify-content: flex-end;
   }
 
-.email {
-    display: flex;
-}
-/* Media Screen Adjusting for Mobile*/
-@media only screen and (min-width: 600) {
-    .uxui-gridContainer {
-        display: grid;
-        column-gap: 10em;
-        row-gap: 5em;
-        grid-template-rows: 25% 25% 25% 25% 25% 25%;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "livingroomPhoto"
-        "livingroomContent" 
-        "patriotsPhoto"
-        "patriotsContent"
-        "streetPhoto"
-        "streetContent";
-    }
-} 
 /* hovereffect on graphic design tiles */
 .tileinfo {
     margin: 0 auto;
@@ -444,7 +425,10 @@ footer ul li a{
 }
     /*Ernest Way Tile Hover*/
 .card {
-    width: auto !important;
+    max-width: 385px !important;
+    width:  100%!important;
+    height: auto !important;
+    word-wrap:  none !important;
 }
 .center {
     position: relative;
@@ -1006,26 +990,36 @@ footer ul li a{
 }
   #about-gridContainer {
     display: grid;
-    column-gap: 5em;
+    column-gap: 1em;
     row-gap: 5em;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "bioPhoto bioContent"
         "freetimeContent freetimePhoto";
     margin: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 #bioPhoto {
     grid-area: bioPhoto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
 }
 #bioContent {
     grid-area: bioContent;
+    padding-bottom: 30px;
 }
 #freetimePhoto {
     grid-area: freetimePhoto;
+    justify-content: center;
+    align-items: center;
 }
 #freetimeContent {
     grid-area: freetimeContent;
+    padding-bottom: 30px;
 }
   .aboutmeGridArea {
       display: flex;
@@ -1033,7 +1027,8 @@ footer ul li a{
       justify-content: flex-end;
   }
   #bioPhoto img, #freetimePhoto img {
-      width: 100%;
+    width: 70%;
+    height: auto;
   }
   .skills-title {
       margin-bottom: 40px;
@@ -1086,8 +1081,10 @@ footer ul li a{
   @media screen and (max-width: 600px) {
     #about-gridContainer {
         display: grid;
-        column-gap: 10em;
-        row-gap: 5em;
+        column-gap: 2em;
+        row-gap: 2em;
+        justify-content: center;
+        align-items: center;
         grid-template-rows: 25% 25% 25% 25%;
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -1095,6 +1092,20 @@ footer ul li a{
             "bioContent"
             "freetimePhoto"
             "freetimeContent";
+    }
+    .uxui-gridContainer {
+        display: grid;
+        column-gap: 0.5em;
+        row-gap: 5em;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "livingroomPhoto"
+        "livingroomContent" 
+        "patriotsPhoto"
+        "patriotsContent"
+        "streetPhoto"
+        "streetContent";
     }
   }
   /*modal*/
