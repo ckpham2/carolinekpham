@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20pt;
+    font-size: 24pt;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ h4 {
 p {
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: justify;
     line-height: auto;
 }
@@ -146,7 +146,7 @@ li {
     display: block;
     color: #1D1F1E;
     text-align: center;
-    font-size: 20pt;
+    font-size: 20pt !important;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -843,7 +843,7 @@ footer ul li a{
     background-color: white;
     margin-bottom: 0px !important;
   }
-  .display-4 {
+.display-4 {
     display: flex;
     align-items: left;
     justify-content: left;
@@ -860,10 +860,18 @@ footer ul li a{
     padding: 40px;
 }
 .img-fluid {
-    max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
 }
-
+#tableofcontents {
+    width: 100% !important;
+    height: auto !important;
+}
+.table {
+    display: block;
+    justify-content: center !important;
+    align-items: center !important;
+}
 .casestudy-image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -892,21 +900,21 @@ footer ul li a{
 
 }
 .livingHeading {
-    font-size: 16pt !important;
+    font-size: 20pt !important;
 }
 .livingroom-text {
-    font-size: 14pt !important;
+    font-size: 16pt !important;
     margin-left: 0 !important;
 }
 .livingroom-text2 {
-    font-size: 14pt !important;
+    font-size: 16pt !important;
     margin-right: 0px !important;
     margin-left: 0px !important;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .livingroom-text3 {
-    font-size: 14pt !important;
+    font-size: 16pt !important;
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
@@ -979,6 +987,95 @@ footer ul li a{
               transform: translateY(0px);
     }
   }
+  #Timeline {
+    grid-area: Timeline;
+    justify-content: center;
+    align-items: center;
+}
+#Tools {
+    grid-area: Tools;
+    justify-content: center;
+    align-items: center;
+}
+#Role {
+    grid-area: Role;
+    justify-content: center;
+    align-items: center;
+}
+#Team {
+    grid-area: Team;
+    justify-content: center;
+    align-items: center;
+}
+  .introGridArea {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+  .intro-gridContainer {
+    display: grid;
+    column-gap: 2em;
+    row-gap: 2em;
+    grid-template-rows: auto auto ;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "Timeline Tools"
+        "Role Team";
+    padding: 50px 50px;
+}
+  .user-gridContainer {
+    display: grid;
+    column-gap: 2em;
+    row-gap: 2em;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+        "user1Photo user2Photo user3Photo"
+        "user1Content user2Content user3Content";
+    padding: 50px 50px;
+}
+
+#user1Photo img, #user2Photo img, #user3Photo img {
+    width: 100%;
+    height: auto;
+    max-width: 199px;
+    max-height: 197px;
+}
+#user1Photo {
+    grid-area: user1Photo;
+    justify-content: center;
+    align-items: center;
+}
+#user1Content {
+    grid-area: user1Content;
+    justify-content: center;
+    align-items: center;
+}
+#user2Photo {
+    grid-area: user2Photo;
+    justify-content: center;
+    align-items: center;
+}
+#user2Content {
+    grid-area: user2Content;
+    justify-content: center;
+    align-items: center;
+}
+#user3Photo {
+    grid-area: user3Photo;
+    justify-content: center;
+    align-items: center;
+}
+#user3Content {
+    grid-area: user3Content;
+    justify-content: center;
+    align-items: center;
+}
+  .researchGridArea {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
   /*About Skills Section*/
 #aboutMe {
     height: 20vh;
@@ -1006,29 +1103,52 @@ footer ul li a{
     grid-area: bioPhoto;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
 }
 #bioContent {
     grid-area: bioContent;
     padding-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
+#heading {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+
+}
+p a {
+    color: #4A807B;
+}
+a:hover {
+    color: #284744;
+    cursor: pointer;
+  }
 #freetimePhoto {
     grid-area: freetimePhoto;
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
 }
 #freetimeContent {
     grid-area: freetimeContent;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
   .aboutmeGridArea {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
   }
-  #bioPhoto img, #freetimePhoto img {
+  #bioPhoto img, #freetimePhoto img, 
+  #freetimeContent img {
     width: 70%;
     height: auto;
+  }
+  .freetime-icon {
+      padding-top: 20px;
   }
   .skills-title {
       margin-bottom: 40px;
@@ -1065,7 +1185,7 @@ footer ul li a{
   text-align: center;
   width: 50%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .skills-container,
     .hobbies-container {
       display: grid;
@@ -1078,7 +1198,7 @@ footer ul li a{
       margin: 0px auto;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     #about-gridContainer {
         display: grid;
         column-gap: 2em;
@@ -1092,6 +1212,38 @@ footer ul li a{
             "bioContent"
             "freetimePhoto"
             "freetimeContent";
+    }
+    .intro-gridContainer {
+        display: grid;
+        column-gap: 2em;
+        row-gap: 2em;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: auto auto ;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+            "Timeline"
+            "Tools"
+            "Role"
+            "Team";
+        padding: 50px 50px;
+    }
+    .user-gridContainer {
+        display: grid;
+        column-gap: 2em;
+        row-gap: 2em;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+        "user1Photo"
+        "user1Content" 
+        "user2Photo"
+        "user2Content"
+        "user3Photo"
+        "user3Content";
+        padding: 50px 50px;
     }
     .uxui-gridContainer {
         display: grid;
