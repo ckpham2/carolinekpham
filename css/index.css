@@ -859,6 +859,11 @@ footer ul li a{
     background-color: #D8E8E7;
     padding: 40px;
 }
+.colorBlock2 {
+    background-color: #D8E8E7;
+    padding: 40px;
+    margin-bottom: 80px;
+}
 .img-fluid {
     width: 100% !important;
     height: auto !important;
@@ -866,6 +871,11 @@ footer ul li a{
 #tableofcontents {
     width: 100% !important;
     height: auto !important;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+#spacing {
+    padding-bottom: 40px;
 }
 .table {
     display: block;
@@ -894,6 +904,18 @@ footer ul li a{
     justify-content: center;
     margin-bottom: 0px !important;
 }
+#miroimage {
+    padding-bottom: 30px;
+}
+#miroimage2 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+#miroimage3 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
 .container {
     margin-top: 50px;
     padding-left: 180px !important;
@@ -904,7 +926,17 @@ footer ul li a{
 }
 .livingroom-text {
     font-size: 16pt !important;
-    margin-left: 0 !important;
+    margin: 0px auto !important;
+}
+#user2text {
+    padding-bottom: 60px;
+}
+#user3text {
+    padding-top: 30px;
+}
+#bodytext {
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .livingroom-text2 {
     font-size: 16pt !important;
@@ -923,6 +955,7 @@ footer ul li a{
     justify-content: center;
     margin-top: .5rem;
     padding-top: 10px;
+    font-size: 30pt !important;
 }
 .casestudy-body {
     margin-top: 50px;
@@ -937,56 +970,7 @@ footer ul li a{
     align-items: left;
     justify-content: left;
 }
-.livingHeading {
-	-webkit-animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
 
- @-webkit-keyframes livingHeading {
-    0% {
-      -webkit-transform: translateY(300px);
-              transform: translateY(300px);
-    }
-    100% {
-      -webkit-transform: translateY(0px);
-              transform: translateY(0px);
-    }
-  }
-  @keyframes livingHeading {
-    0% {
-      -webkit-transform: translateY(300px);
-              transform: translateY(300px);
-    }
-    100% {
-      -webkit-transform: translateY(0px);
-              transform: translateY(0px);
-    }
-  }
-  .caseStudy {
-	-webkit-animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
- @-webkit-keyframes caseStudy {
-    0% {
-      -webkit-transform: translateY(300px);
-              transform: translateY(300px);
-    }
-    100% {
-      -webkit-transform: translateY(0px);
-              transform: translateY(0px);
-    }
-  }
-  @keyframes caseStudy {
-    0% {
-      -webkit-transform: translateY(300px);
-              transform: translateY(300px);
-    }
-    100% {
-      -webkit-transform: translateY(0px);
-              transform: translateY(0px);
-    }
-  }
   #Timeline {
     grid-area: Timeline;
     justify-content: center;
@@ -1026,13 +1010,13 @@ footer ul li a{
   .user-gridContainer {
     display: grid;
     column-gap: 2em;
-    row-gap: 2em;
+    row-gap: 1em;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto auto;
     grid-template-areas: 
         "user1Photo user2Photo user3Photo"
         "user1Content user2Content user3Content";
-    padding: 50px 50px;
+    padding: 20px 20px;
 }
 
 #user1Photo img, #user2Photo img, #user3Photo img {
@@ -1076,7 +1060,7 @@ footer ul li a{
       flex-direction: column;
       justify-content: flex-end;
   }
-  /*About Skills Section*/
+  /*About Page*/
 #aboutMe {
     height: 20vh;
     margin: 20px;
@@ -1150,6 +1134,7 @@ a:hover {
   .freetime-icon {
       padding-top: 20px;
   }
+    /*About Page Skills Section*/
   .skills-title {
       margin-bottom: 40px;
   }
@@ -1162,8 +1147,7 @@ a:hover {
     padding-bottom: 40px;
     background-color: #D8E8E7;
   }
-  .skills-container,
-.hobbies-container {
+  .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -1174,20 +1158,17 @@ a:hover {
   margin: 0px auto;
 }
 
-.skills-container div,
-.hobbies-container div {
+.skills-container div {
   text-align: center;
 }
 
-.skills-container div img,
-.hobbies-container div img {
+.skills-container div img {
   margin-bottom: 20px;
   text-align: center;
   width: 50%;
 }
 @media screen and (max-width: 800px) {
-    .skills-container,
-    .hobbies-container {
+    .skills-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
