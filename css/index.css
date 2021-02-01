@@ -1060,6 +1060,77 @@ footer ul li a{
       flex-direction: column;
       justify-content: flex-end;
   }
+/*Patriots Paws CaseStudy*/
+.jumbotron2 {
+    background-image: url(../images/Patriots_Paws/PatriotsPaws\ Hero.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 576px)
+.jumbotron2 {
+    padding: 4rem 2rem;
+}
+.jumbotron2 {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: .3rem;
+}
+.colorBlock3 {
+    background-color: #B1CFF5;
+    padding: 40px;
+    margin-bottom: 80px;
+}
+.patriots-gridContainer {
+    display: grid;
+    column-gap: 2em;
+    row-gap: 1em;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "interview1Photo interview2Photo"
+        "interview1Content interview2Content";
+    padding: 20px 20px;
+}
+
+#interview1Photo img, #interview2Photo img {
+    width: 100%;
+    height: auto;
+    max-width: 199px;
+    max-height: 197px;
+}
+#interview1Photo {
+    grid-area: interview1Photo;
+    justify-content: center;
+    align-items: center;
+}
+#interview1Content {
+    grid-area: interview1Content;
+    justify-content: center;
+    align-items: center;
+}
+#interview2Photo {
+    grid-area: interview2Photo;
+    justify-content: center;
+    align-items: center;
+}
+#interview2Content {
+    grid-area: interview2Content;
+    justify-content: center;
+    align-items: center;
+}
+  .patriotsGridArea {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
   /*About Page*/
 #aboutMe {
     height: 20vh;
@@ -1225,6 +1296,19 @@ a:hover {
         "user3Photo"
         "user3Content";
         padding: 50px 50px;
+    }
+    .patriots-gridContainer {
+        display: grid;
+        column-gap: 2em;
+        row-gap: 1em;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+            "interview1Photo"
+            "interview1Content"
+            "interview2Photo"
+            "interview2Content";
+        padding: 20px 20px;
     }
     .uxui-gridContainer {
         display: grid;
