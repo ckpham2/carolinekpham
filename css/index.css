@@ -852,6 +852,7 @@ footer ul li a{
     align-items: left;
     justify-content: left;
     vertical-align: top;
+    font-weight: 600 !important;
 }
 .lead {
     display: flex !important;
@@ -919,6 +920,25 @@ footer ul li a{
     padding-top: 20px;
     padding-bottom: 60px;
     margin-bottom: 40px;
+}
+#miroimage4 {
+    margin-top: 40px;
+}
+#miroimage5 {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+#miroimage6 {
+    padding-bottom: 60px;
+}
+#herospacing {
+    margin-top: 50px;
+    margin-bottom: ;
+}
+#spacing2 {
+    padding-bottom: 50px;
 }
 .container {
     margin-top: 50px;
@@ -1106,8 +1126,8 @@ footer ul li a{
 }
 .patriots-gridContainer {
     display: grid;
-    column-gap: 2em;
-    row-gap: 1em;
+    column-gap: 5em;
+    row-gap: 2em;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
     grid-template-areas: 
@@ -1148,6 +1168,13 @@ footer ul li a{
       flex-direction: column;
       justify-content: flex-end;
   }
+#patriots-text {
+    padding-bottom: 20px;
+}
+#patriots-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
   /*Street Samaritan CaseStudy*/
   .jumbotron3 {
     background-image: url(../images/StreetSamaritan/Street\ Samaritan\ Hero.png) !important;
@@ -1189,11 +1216,21 @@ footer ul li a{
     color: #FF9900 !important;
     font-weight: 800 !important;
 }
+#boldspacing {
+    padding-top: 20px;
+}
+#boldpadding {
+    padding-bottom: 10px;
+}
+#boldpadding2 {
+    padding-bottom: 70px;
+}
 .bold-text {
     font-size: 16pt !important;
     font-weight: 800 !important;
     text-align: center !important;
     margin: 0px auto !important;
+    padding-bottom: 50px;
 }
 #imagecontainer {
     overflow: hidden;
