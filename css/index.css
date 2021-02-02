@@ -8,6 +8,10 @@ body {
     padding: 10px;
 }
 /*Font Styles*/
+@fontface {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
 h1 {
     font-size: 64pt;
     font-weight: bold;
@@ -928,15 +932,18 @@ footer ul li a{
     font-size: 16pt !important;
     margin: 0px auto !important;
 }
-#user2text {
-    padding-bottom: 60px;
+.casestudy-body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
 }
-#user3text {
-    padding-top: 30px;
-}
-#bodytext {
-    padding-top: 30px;
-    padding-bottom: 20px;
+.casestudy-heading {
+    font-size: 26pt;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
 }
 .livingroom-text2 {
     font-size: 16pt !important;
@@ -970,7 +977,16 @@ footer ul li a{
     align-items: left;
     justify-content: left;
 }
-
+#user2text {
+    padding-bottom: 60px;
+}
+#user3text {
+    padding-top: 30px;
+}
+#bodytext {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
   #Timeline {
     grid-area: Timeline;
     justify-content: center;
@@ -1073,7 +1089,7 @@ footer ul li a{
     margin-bottom: 0px !important;
 }
 
-@media (min-width: 576px)
+@media (min-width: 576px) {
 .jumbotron2 {
     padding: 4rem 2rem;
 }
@@ -1098,6 +1114,7 @@ footer ul li a{
         "interview1Photo interview2Photo"
         "interview1Content interview2Content";
     padding: 20px 20px;
+}
 }
 
 #interview1Photo img, #interview2Photo img {
@@ -1131,6 +1148,114 @@ footer ul li a{
       flex-direction: column;
       justify-content: flex-end;
   }
+  /*Street Samaritan CaseStudy*/
+  .jumbotron3 {
+    background-image: url(../images/StreetSamaritan/Street\ Samaritan\ Hero.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 576px) {
+.jumbotron3 {
+    padding: 4rem 2rem;
+}
+.jumbotron3 {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: .3rem;
+}
+}
+.colorBlock4 {
+    background-color: #000000;
+    padding: 40px;
+    margin-bottom: 80px;
+}
+.colorBlock5 {
+    background-color: #000000;
+    padding: 40px;
+}
+.colorBlock7 {
+    background-color: #F9F9F9;
+    padding: 40px;
+}
+#highlight {
+    color: #FF9900 !important;
+    font-weight: 800 !important;
+}
+.bold-text {
+    font-size: 16pt !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    margin: 0px auto !important;
+}
+#imagecontainer {
+    overflow: hidden;
+}
+.streetHeading {
+    font-size: 20pt !important;
+    color: #ffffff !important;
+}
+.street-text {
+    font-size: 16pt !important;
+    margin: 0px auto !important;
+    color: #ffffff !important;
+}
+.street-body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.street-heading {
+    font-size: 26pt;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    color: #ffffff !important;
+}
+.street-text2 {
+    font-size: 16pt !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+.street-text3 {
+    font-size: 16pt !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    color: #ffffff !important;
+}
+.street-caseStudy {
+    align-items: center !important;
+    justify-content: center;
+    margin-top: .5rem;
+    padding-top: 10px;
+    font-size: 30pt !important;
+    color: #ffffff !important;
+}
+.casestudy-body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.casestudy-heading {
+    font-size: 26pt;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
   /*About Page*/
 #aboutMe {
     height: 20vh;
