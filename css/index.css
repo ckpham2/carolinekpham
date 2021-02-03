@@ -8,10 +8,6 @@ body {
     padding: 10px;
 }
 /*Font Styles*/
-@fontface {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
-}
 h1 {
     font-size: 64pt;
     font-weight: bold;
@@ -935,7 +931,6 @@ footer ul li a{
 }
 #herospacing {
     margin-top: 50px;
-    margin-bottom: ;
 }
 #spacing2 {
     padding-bottom: 50px;
@@ -1219,6 +1214,9 @@ footer ul li a{
 #boldspacing {
     padding-top: 20px;
 }
+#boldspacing2 {
+    padding-bottom: 40px;
+}
 #boldpadding {
     padding-bottom: 10px;
 }
@@ -1493,7 +1491,7 @@ a:hover {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 60px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -1509,9 +1507,45 @@ a:hover {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 70%;
+    height: auto;
   }
-  
+.slideContainer {
+    width: 540px;
+    margin: 40px auto;
+    overflow: auto;
+}
+.slider-inner {
+    width: 820px;
+    height: 830px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+}
+.slider-inner img {
+    display: none;
+    width: 820px;
+    height: 830px;
+}
+.slider-inner img.active {
+    display: inline-block;
+}
+#prev, #next {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+#prev {
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+#next {
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
   /* The Close Button */
   .close {
     color: #aaaaaa;
