@@ -1300,7 +1300,7 @@ footer ul li a{
   #about-gridContainer {
     display: grid;
     column-gap: 1em;
-    row-gap: 5em;
+    row-gap: 1em;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
