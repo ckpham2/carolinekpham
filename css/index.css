@@ -937,8 +937,6 @@ footer ul li a{
 }
 .container {
     margin-top: 50px;
-    padding-left: 180px !important;
-
 }
 .livingHeading {
     font-size: 20pt !important;
@@ -1103,17 +1101,6 @@ footer ul li a{
     background-color: white;
     margin-bottom: 0px !important;
 }
-
-@media (min-width: 576px) {
-.jumbotron2 {
-    padding: 4rem 2rem;
-}
-.jumbotron2 {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-    border-radius: .3rem;
-}
 .colorBlock3 {
     background-color: #B1CFF5;
     padding: 40px;
@@ -1130,6 +1117,29 @@ footer ul li a{
         "interview1Content interview2Content";
     padding: 20px 20px;
 }
+.jumbotron2 {
+    padding: 4rem 2rem;
+}
+.jumbotron2 {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: .3rem;
+}
+@media (min-width: 576px) {
+    .patriots-gridContainer {
+        display: grid;
+        column-gap: 5em;
+        row-gap: 2em;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "interview1Photo"
+            "interview1Content"  
+            "interview2Photo"
+            "interview2Content";
+        padding: 20px 20px;
+    }
 }
 
 #interview1Photo img, #interview2Photo img {
@@ -1175,24 +1185,11 @@ footer ul li a{
     background-image: url(../images/StreetSamaritan/Street\ Samaritan\ Hero.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     margin-bottom: 0px !important;
-}
-
-@media (min-width: 576px) {
-.jumbotron3 {
-    padding: 4rem 2rem;
-}
-.jumbotron3 {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-    border-radius: .3rem;
-}
 }
 .colorBlock4 {
     background-color: #000000;
@@ -1292,7 +1289,7 @@ footer ul li a{
     justify-content: left;
 }
   /*About Page*/
-#aboutMe {
+  #aboutMe {
     height: 20vh;
     margin: 20px;
     display: flex;
@@ -1398,19 +1395,33 @@ a:hover {
   text-align: center;
   width: 50%;
 }
-@media screen and (max-width: 800px) {
-    .skills-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      justify-content: center;
-      align-items: center;
-      row-gap: 50px;
-      width: 100%;
-      margin: 0px auto;
+@media (min-width: 576px) {
+    .patriots-gridContainer {
+        display: grid;
+        column-gap: 5em;
+        row-gap: 2em;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "interview1Photo"
+            "interview1Content"  
+            "interview2Photo"
+            "interview2Content";
+        padding: 20px 20px;
     }
+}
+@media (min-width: 576px) {
+.jumbotron3 {
+    padding: 4rem 2rem;
+}
+.jumbotron3 {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: .3rem;
+}
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     #about-gridContainer {
         display: grid;
         column-gap: 2em;
@@ -1425,6 +1436,16 @@ a:hover {
             "freetimePhoto"
             "freetimeContent";
     }
+    .skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+        width: 100%;
+        margin: 0px auto;
+      }
     .intro-gridContainer {
         display: grid;
         column-gap: 2em;
@@ -1457,19 +1478,7 @@ a:hover {
         "user3Content";
         padding: 50px 50px;
     }
-    .patriots-gridContainer {
-        display: grid;
-        column-gap: 2em;
-        row-gap: 1em;
-        grid-template-rows: auto auto auto auto;
-        grid-template-columns: auto auto;
-        grid-template-areas: 
-            "interview1Photo"
-            "interview1Content"
-            "interview2Photo"
-            "interview2Content";
-        padding: 20px 20px;
-    }
+
     .uxui-gridContainer {
         display: grid;
         column-gap: 0.5em;
@@ -1484,7 +1493,31 @@ a:hover {
         "streetPhoto"
         "streetContent";
     }
-  }
+    .carousel-control-prev-icon {
+        background-image: url(../images/eva_arrow-ios-back-outline.png)!important;
+    }
+    .carousel-control-next-icon {
+        background-image: url(../images/eva_arrow-ios-forward-fill.png)!important;
+    }
+    .carousel-indicators li{
+        background-color: #1D1E1F !important;
+    }
+      /* The Close Button */
+      .close {
+        color: #1D1E1F !important;
+        float: right;
+        font-size: 28px !important;
+        font-weight: bold;
+        opacity: 1 !important;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #4A807B !important;
+        text-decoration: none;
+        cursor: pointer;
+      }
+}
   /*modal*/
 /* The Modal (background) */
 .modal {
@@ -1509,54 +1542,4 @@ a:hover {
     border: 1px solid #888;
     width: 70%;
     height: auto;
-  }
-.slideContainer {
-    width: 540px;
-    margin: 40px auto;
-    overflow: auto;
-}
-.slider-inner {
-    width: 820px;
-    height: 830px;
-    position: relative;
-    overflow: hidden;
-    float: left;
-    padding: 3px;
-}
-.slider-inner img {
-    display: none;
-    width: 820px;
-    height: 830px;
-}
-.slider-inner img.active {
-    display: inline-block;
-}
-#prev, #next {
-    float: left;
-    margin-top: 130px;
-    cursor: pointer;
-}
-#prev {
-    position: relative;
-    margin-right: -45px;
-    z-index: 100;
-}
-#next {
-    position: relative;
-    margin-left: -45px;
-    z-index: 100;
-}
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
   }
