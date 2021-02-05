@@ -133,7 +133,7 @@ p {
   .navcontainer .navbar2 ul .close2 span {
     font-size: 40px;
     display: inline-block;
-    border: none;
+    border: none !important;
     padding: 0 10px;
     cursor: pointer;
   }
