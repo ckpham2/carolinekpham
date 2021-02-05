@@ -561,412 +561,6 @@ footer ul li a{
       flex-direction: column;
       justify-content: flex-end;
   }
-
-/* hovereffect on graphic design tiles */
-.tileinfo {
-    margin: 0 auto;
-}
-.g-design {
-    margin-bottom: 50px !important;
-}
-    /*Ernest Way Tile Hover*/
-.card {
-    max-width: 385px !important;
-    width:  100%!important;
-    height: auto !important;
-    word-wrap:  none !important;
-}
-.center {
-    position: relative;
-    height: 259px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.center .gradientimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.center:hover {
-    background-position: 100% 100%;
-}
-.center:hover .overlay-xs-1{
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-sim-text-2{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.cover-text {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Dimweight Tile Hover*/
-.dimweight {
-    position: relative;
-    height: 258px;
-    width: 344px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.dimweight .weightimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.dimweight:hover {
-    background-position: 100% 100%;
-}
-.dimweight:hover .overlay-1{
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-2{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Skin2beenvied Tile Hover*/
-.skin2beenvied {
-    position: relative;
-    height: 260px;
-    width: 343px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.skin2beenvied .skinimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.skin2beenvied:hover {
-    background-position: 100% 100%;
-}
-.skin2beenvied:hover .overlay-2{
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-3{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text-2 {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Packaging Assembly Tile Hover*/
-.packaging {
-    position: relative;
-    height: 259px;
-    width: 345px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.packaging .pkgimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.packaging:hover {
-    background-position: 100% 100%;
-}
-.packaging:hover .overlay-3{
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-4{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text-3 {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Encore Tile Hover*/
-.encore {
-    position: relative;
-    height: 321px;
-    width: 345px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.encore .encoreimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.encore:hover {
-    background-position: 100% 100%;
-}
-.encore:hover .overlay-4{
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-5{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text-4 {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Ernies Snapchat Tile Hover*/
-.geofilter {
-    position: relative;
-    height: 266px;
-    width: 342px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.geofilter .filterimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.geofilter:hover {
-    background-position: 100% 100%;
-}
-.geofilter:hover .overlay-5{
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-6{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text-5 {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Donut Wall Tile Hover*/
-.donut {
-    position: relative;
-    height: 439px;
-    width: 345px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.donut .donutimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.donut:hover {
-    background-position: 100% 100%;
-}
-.donut:hover .overlay-6 {
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-7{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text-6 {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
-    /*Appreciation Card Tile Hover*/
-.appreciation {
-    position: relative;
-    height: 408px;
-    width: 340px;
-    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
-    background-repeat: no-repeat;
-    background-size: 400% 400%;
-    cursor: pointer;
-    transition: .5s all;
-}
-.appreciation .apprec-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    mix-blend-mode: screen;
-    opacity: .95;
-}
-.appreciation:hover {
-    background-position: 100% 100%;
-}
-.appreciation:hover .overlay-7 {
-    opacity: 1;
-    visibility: visible;
-    display: block;	
-}
-.overlay-text-8{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    display: inline-block !important;
-    justify-content: center !important;
-    text-align: center;
-    align-items: center !important;
-    color: #1D1F1E !important;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.title-text-7 {
-    font-size: 10pt !important;
-    padding: 5px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    padding-right: 40px;
-}
 /*LivingRoom Case Study*/
 .jumboCopy {
     width: 70%;
@@ -1679,6 +1273,110 @@ a:hover {
         cursor: pointer;
       }
 }
+/*Graphic Design Page Cards*/
+.post-wrap {
+    min-width: 300px;
+    max-width: 380px;
+    height: 420px;
+    perspective: 1000px;
+    flex: 1;
+    margin: 0 15px 30px;
+}
+.post {
+    position: relative; /* Required to absolutely position the faces */
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.post-front, .post-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    border: 1px solid #d4d3d3;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.post-back {
+    transform: rotateY(180deg);
+}
+.post-wrap:hover .post {
+    transform: rotateY(180deg);
+}
+.post-img {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.post-info {
+    padding: 20px 30px 30px;
+}
+.post-info span {
+    font-size: 0.8rem;
+    color: #808080;
+}
+.post-info h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.post-back {
+    background-color: #FFFFFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* To push the read more button to bottom */
+    align-items: flex-start; /* To position the read more button at the left */
+}
+.post-back h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.post-back p {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-left: 0;
+}
+.post-back .button{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5678ba;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.post-back .a {
+    text-decoration: none;
+    color: #1D1E1F !important;
+    background-color: #D8E8E7 !important;
+    padding: 10px 14px !important;
+    letter-spacing: 0.05em !important;
+    font-size: 0.8em !important;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.post-back .a:hover {
+    background-color: #4A807B !important;
+    color: #ffffff !important;
+}
+.card-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Required to position the posts one below the other on smaller devices */
+}
   /*modal*/
 /* The Modal (background) */
 .modal {
@@ -1728,3 +1426,408 @@ a:hover {
     width: 70%;
     height: auto;
   }
+/* hovereffect on graphic design tiles */
+.tileinfo {
+    margin: 0 auto;
+}
+.g-design {
+    margin-bottom: 50px !important;
+}
+    /*Ernest Way Tile Hover*/
+.card {
+    max-width: 385px !important;
+    width:  100%!important;
+    height: auto !important;
+    word-wrap:  none !important;
+}
+.center {
+    position: relative;
+    height: 259px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.center .gradientimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.center:hover {
+    background-position: 100% 100%;
+}
+.center:hover .overlay-xs-1{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-sim-text-2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.cover-text {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Dimweight Tile Hover*/
+.dimweight {
+    position: relative;
+    height: 258px;
+    width: 344px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.dimweight .weightimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.dimweight:hover {
+    background-position: 100% 100%;
+}
+.dimweight:hover .overlay-1{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Skin2beenvied Tile Hover*/
+.skin2beenvied {
+    position: relative;
+    height: 260px;
+    width: 343px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.skin2beenvied .skinimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.skin2beenvied:hover {
+    background-position: 100% 100%;
+}
+.skin2beenvied:hover .overlay-2{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-2 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Packaging Assembly Tile Hover*/
+.packaging {
+    position: relative;
+    height: 259px;
+    width: 345px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.packaging .pkgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.packaging:hover {
+    background-position: 100% 100%;
+}
+.packaging:hover .overlay-3{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-4{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-3 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Encore Tile Hover*/
+.encore {
+    position: relative;
+    height: 321px;
+    width: 345px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.encore .encoreimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.encore:hover {
+    background-position: 100% 100%;
+}
+.encore:hover .overlay-4{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-5{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-4 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Ernies Snapchat Tile Hover*/
+.geofilter {
+    position: relative;
+    height: 266px;
+    width: 342px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.geofilter .filterimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.geofilter:hover {
+    background-position: 100% 100%;
+}
+.geofilter:hover .overlay-5{
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-6{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-5 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Donut Wall Tile Hover*/
+.donut {
+    position: relative;
+    height: 439px;
+    width: 345px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.donut .donutimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.donut:hover {
+    background-position: 100% 100%;
+}
+.donut:hover .overlay-6 {
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-7{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-6 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
+    /*Appreciation Card Tile Hover*/
+.appreciation {
+    position: relative;
+    height: 408px;
+    width: 340px;
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1E74E2 50%, #7AB5AF 75%, #4A807B 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.appreciation .apprec-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: .95;
+}
+.appreciation:hover {
+    background-position: 100% 100%;
+}
+.appreciation:hover .overlay-7 {
+    opacity: 1;
+    visibility: visible;
+    display: block;	
+}
+.overlay-text-8{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: inline-block !important;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    color: #1D1F1E !important;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.title-text-7 {
+    font-size: 10pt !important;
+    padding: 5px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 40px;
+}
