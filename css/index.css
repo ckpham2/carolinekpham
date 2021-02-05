@@ -1694,6 +1694,30 @@ a:hover {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
+  .carousel-control-prev-icon {
+    background-image: url(../images/eva_arrow-ios-back-outline.png)!important;
+}
+.carousel-control-next-icon {
+    background-image: url(../images/eva_arrow-ios-forward-fill.png)!important;
+}
+.carousel-indicators li{
+    background-color: #1D1E1F !important;
+}
+  /* The Close Button */
+  .close {
+    color: #1D1E1F !important;
+    float: right;
+    font-size: 28px !important;
+    font-weight: bold;
+    opacity: 1 !important;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #4A807B !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
   
   /* Modal Content */
   .modal-content {
