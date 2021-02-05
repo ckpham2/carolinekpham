@@ -10,25 +10,25 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <a href="index.html" class="logo">
-                  <img id="smallLogo" src="images/CarolinePham_Logos-small.png" width="69px" height="55px">
-                </a>
-                <span class="navbar-toggle" id="js-navbar-toggle" onclick="openNav(), closeNav()">
-                  <span class="iconify" data-inline="false" data-icon="radix-icons:hamburger-menu" style="font-size: 41px;"></span>
-                </span>
-                <ul class="main-nav" id="js-menu">
-                    <li>
-                        <a href="about.html" class="nav-links">About</a>
-                    </li>
-                    <li>
-                        <a href="index_uxui.html" class="nav-links">UX | UI</a>
-                    </li>
-                    <li>
-                        <a href="index_graphicdesign.html" class="nav-links">Graphic Design</a>
-                    </li>
-                </ul>
-              </nav>
+            <div class="navcontainer">
+                <div class="logo">
+                    <a href="index.html"><img src="images/CarolinePham_Logos-small.png" alt="small-logo"></a>
+                </div>
+            <div class="navbar2">
+            
+            <div class="icon-bar" onclick="Show()">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            
+            <ul id="nav-lists">
+                <li class="close2"><span onclick="Hide()">×</span></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="uxui.html">UX | UI</a></li>
+                <li><a href="index_graphicdesign.html">Graphic Design</a></li>
+            </ul>
+            </div>
             </div>
         </header>
         <section>
