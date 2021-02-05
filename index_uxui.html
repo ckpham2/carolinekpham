@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>UX|UI - Caroline K. Pham</title>
         <link rel="icon" type="image/png" sizes="16x16" href="images/CarolinePhamsmall-favicon.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -11,25 +13,24 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <a href="index.html" class="logo">
-                  <img id="smallLogo" src="images/CarolinePham_Logos-small.png" width="69px" height="55px">
-                </a>
-                <span class="navbar-toggle" id="js-navbar-toggle" onclick="openNav(), closeNav()">
-                  <span class="iconify" data-inline="false" data-icon="radix-icons:hamburger-menu" style="font-size: 41px;"></span>
-                </span>
-                <ul class="main-nav" id="js-menu">
-                    <li>
-                        <a href="about.html" class="nav-links">About</a>
-                    </li>
-                    <li>
-                        <a href="index_uxui.html" class="nav-links">UX | UI</a>
-                    </li>
-                    <li>
-                        <a href="index_graphicdesign.html" class="nav-links">Graphic Design</a>
-                    </li>
-                </ul>
-              </nav>
+            <div class="navcontainer">
+                <div class="logo">
+                    <a href="index.html"><img src="images/CarolinePham_Logos-small.png" alt="small-logo"></a>
+                </div>
+            <div class="navbar">
+            
+            <div class="icon-bar" onclick="Show()">
+                <span class="iconify" data-inline="false" data-icon="radix-icons:hamburger-menu"></span>
+            </div>
+            
+            <ul id="nav-lists">
+                <li class="close2"><span onclick="Hide()">×</span></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">UX|UI</a></li>
+                <li><a href="#">Graphic Design</a></li>
+            </ul>
+            </div>
+            </div>
         </header>
             <section>
                 <h3 class="uxui">UX | UI Design Projects</h3>

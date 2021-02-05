@@ -45,15 +45,16 @@ $(".scrollbutton").click(function () {
         }, 2000);
           
     })();
-
-  
-    let mainNav = document.getElementById('js-menu');
-    let navBarToggle = document.getElementById('js-navbar-toggle');
     
-    navBarToggle.addEventListener('click', function () {
-        
-        mainNav.classList.toggle('active');
-    });
+    var navList = document.getElementById("nav-lists");
+    function Show() {
+    navList.classList.add("_Menus-show");
+    }
+    
+    function Hide(){
+    navList.classList.remove("_Menus-show");
+    }
+  
 
     // Get the modal
 var modal = document.getElementById("myModal");
