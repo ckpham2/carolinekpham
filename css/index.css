@@ -57,7 +57,7 @@ p {
   }
 .logo2 a {
     display: none;
-    color: #ffffff im !important;
+    color: #ffffff !important;
 }
   .navcontainer .logo {
     max-width: 250px;
@@ -136,6 +136,7 @@ p {
     border: none !important;
     padding: 0 10px;
     cursor: pointer;
+    color: #FFFFFF;
   }
   
   .navcontainer .navbar2 .icon-bar {
@@ -186,7 +187,7 @@ p {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
-      background: #ffffff;
+      background: #4A807B;
       width: 100%;
       height: 100%;
       overflow: auto;
@@ -200,7 +201,7 @@ p {
       font-size: 20pt;
       height: auto;
       line-height: normal;
-      color: #555555;
+      color: #FFFFFF;
     }
   
     .navcontainer .navbar2 ul .close2 {
