@@ -57,7 +57,7 @@ p {
   }
 .logo2 a {
     display: none;
-    color: #ffffff !important;
+    color: #ffffff im !important;
 }
   .navcontainer .logo {
     max-width: 250px;
@@ -121,7 +121,7 @@ p {
   }
   
   .navcontainer .navbar2 ul li a:hover {
-    color: #FFFFFF;
+    color: #4A807B;
   }
   
   .navcontainer .navbar2 ul .close2 {
@@ -136,7 +136,6 @@ p {
     border: none !important;
     padding: 0 10px;
     cursor: pointer;
-    color: #1D1E1F;
   }
   
   .navcontainer .navbar2 .icon-bar {
@@ -187,7 +186,7 @@ p {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
-      background: #4A807B;
+      background: #ffffff;
       width: 100%;
       height: 100%;
       overflow: auto;
