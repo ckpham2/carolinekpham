@@ -1,3 +1,0 @@
-Hello again world.
-
-Work.

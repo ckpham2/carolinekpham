@@ -586,77 +586,6 @@ footer ul li a{
       justify-content: flex-end;
   }
 /*LivingRoom Case Study*/
-#jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: #1D1F1E;
-    margin: 0px;
-    text-align: left;
-    margin-right: 700px;
-    margin-bottom: 250px;
-  } 
-  .jumbotron {
-    background-image: url(../images/LivingRoom_Hero.png) !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin-bottom: 0px !important;
-  }
-.jumbotron2 {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-    border-radius: .3rem;
-}
-.jumbotron2 {
-    padding: 4rem 2rem;
-}
-.jumbotron2 {
-    background-image: url(../images/Patriots_Paws/PatriotsPaws\ Hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin-bottom: 0px !important;
-}
-
-.jumbotron-fluid {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    border-radius: 0 !important;
-}
-.container {
-    margin-top: 50px;
-}
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100% !important;
-    padding-right: 30px !important;
-    padding-left: 15px !important;
-    margin-right: 40% !important;
-    margin-left: auto !important;
-    height: calc(40vh - 25px) !important;
-}
-.display-4 {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    vertical-align: top;
-    font-weight: 600 !important;
-}
-.lead {
-    display: flex !important;
-    align-items: left !important;
-    justify-content: left !important;
-    margin: 0px !important;
-}
   .colorBlock {
     background-color: #D8E8E7;
     padding: 40px;
@@ -930,39 +859,6 @@ footer ul li a{
         "interview1Content interview2Content";
     padding: 20px 20px;
 }
-.jumbotron2 {
-    padding: 4rem 2rem;
-}
-.jumbotron2 {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-    border-radius: .3rem;
-}
-@media (min-width: 576px) {
-    .patriots-gridContainer {
-        display: grid;
-        column-gap: 5em;
-        row-gap: 2em;
-        grid-template-rows: auto auto auto auto;
-        grid-template-columns: auto;
-        grid-template-areas: 
-            "interview1Photo"
-            "interview1Content"  
-            "interview2Photo"
-            "interview2Content";
-        padding: 20px 20px;
-    }
-    .jumbotron2 {
-        padding: 4rem 2rem;
-    }
-    .jumbotron2 {
-        padding: 2rem 1rem;
-        margin-bottom: 2rem;
-        background-color: #ffffff;
-        border-radius: .3rem;
-    }
-}
 
 #interview1Photo img, #interview2Photo img {
     width: 100%;
@@ -1210,33 +1106,6 @@ a:hover {
   text-align: center;
   width: 50%;
 }
-@media (min-width: 576px) {
-    .patriots-gridContainer {
-        display: grid;
-        column-gap: 5em;
-        row-gap: 2em;
-        grid-template-rows: auto auto auto auto;
-        grid-template-columns: auto;
-        grid-template-areas: 
-            "interview1Photo"
-            "interview1Content"  
-            "interview2Photo"
-            "interview2Content";
-        padding: 20px 20px;
-    }
-
-}
-@media (min-width: 576px) {
-.jumbotron3 {
-    padding: 4rem 2rem;
-}
-.jumbotron3 {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-    border-radius: .3rem;
-}
-  }
   @media screen and (max-width: 576px) {
     #hero-gridContainer {
         display: grid;
@@ -1249,6 +1118,19 @@ a:hover {
             "heroContent";
         justify-content: center;
         align-items: center;
+    }
+    .patriots-gridContainer {
+        display: grid;
+        column-gap: 5em;
+        row-gap: 2em;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "interview1Photo"
+            "interview1Content"  
+            "interview2Photo"
+            "interview2Content";
+        padding: 20px 20px;
     }
     #about-gridContainer {
         display: grid;
