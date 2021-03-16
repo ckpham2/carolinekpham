@@ -59,6 +59,7 @@ p {
     align-items: center;
     overflow: hidden;
     z-index: 9999;
+    margin-top: 20px;
   }
 .logo2 a {
     display: none;
@@ -69,6 +70,7 @@ p {
     padding: 0 10px;
     overflow: hidden;
     z-index: 9999;
+    padding-left: 40px;
   }
   .navbar2 {
       display: flex;
@@ -188,6 +190,7 @@ p {
       -ms-flex: 1;
       flex: 1;
       z-index: 9999;
+      padding-left: 40px;
 
     }
   
@@ -386,6 +389,7 @@ button:hover {
   #heroPhoto img {
     width: 70%;
     height: auto;
+    max-width: 550px;
   }
 
 #whoami {
@@ -483,7 +487,7 @@ footer ul li a{
 .subtitle {
     border-radius: 5px;
     background-color: #D8E8E7;
-    width: 200px;
+    max-width: 200px;
     color: #666666;
     font-size: 14pt !important;
     font-weight: thin;
@@ -491,12 +495,11 @@ footer ul li a{
     align-items: center;
     justify-content: center;
     line-height: auto;
-    margin-left: 60px;
 }
 .subtitle2 {
     border-radius: 5px;
     background-color: #B1CFF5;
-    width: 200px;
+    max-width: 200px;
     color: #666666;
     font-size: 14pt;
     font-weight: thin;
@@ -504,15 +507,11 @@ footer ul li a{
     align-items: center;
     justify-content: center;
     line-height: auto;
-}
-.subcard {
-    display: flex;
-    margin-left: 65%;
 }
 .subtitle3 {
     border-radius: 5px;
     background-color: #D8E8E7;
-    width: 300px;
+    max-width: 300px;
     color: #666666;
     font-size: 14pt;
     font-weight: thin;
@@ -520,72 +519,10 @@ footer ul li a{
     align-items: center;
     justify-content: center;
     line-height: auto;
-    margin-left: 60px;
 }
-.description {
-    text-align: left;
-    border: 20px;
-    padding: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
-    text-align: justify;
-    font-size: 18pt !important;
+.card-text {
+    margin-bottom: 40px;
 }
-.uxui-gridContainer {
-    display: grid;
-    column-gap: 5em;
-    row-gap: 10em;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto;
-    grid-template-areas: 
-        "livingroomContent livingroomPhoto"
-        "patriotsPhoto patriotsContent"
-        "streetContent streetPhoto";
-    padding: 50px 50px;
-}
-#livingroomPhoto img, #streetPhoto img {
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: auto;
-}
-#patriotsPhoto img {
-    box-shadow: -10px 10px 8px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: auto;
-}
-#livingroomPhoto {
-    grid-area: livingroomPhoto;
-    max-width: 495px;
-    max-height: 481px;
-}
-#livingroomContent {
-    grid-area: livingroomContent;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-#patriotsPhoto {
-    grid-area: patriotsPhoto;
-    max-width: 491px;
-    max-height: 480px;
-}
-#patriotsContent {
-    grid-area: patriotsContent;
-}
-#streetPhoto {
-    grid-area: streetPhoto;
-    max-width: 491px;
-    max-height: 480px;
-}
-#streetContent {
-    grid-area: streetContent;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-  .uxuiGridArea {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-  }
 /*LivingRoom Case Study*/
   .colorBlock {
     background-color: #D8E8E7;
@@ -1043,6 +980,7 @@ footer ul li a{
 #heading {
     padding-top: 60px !important;
     padding-bottom: 20px !important;
+    text-align: center;
 
 }
 
@@ -1057,6 +995,7 @@ footer ul li a{
   }
   .freetime-icon {
       padding-top: 20px;
+      width: 100%;
   }
     /*About Page Skills Section*/
   .skills-title {
@@ -1170,23 +1109,6 @@ footer ul li a{
         "user3Photo"
         "user3Content";
         padding: 50px 50px;
-    }
-
-    .uxui-gridContainer {
-        display: grid;
-        column-gap: 0.5em;
-        row-gap: 5em;
-        justify-content: center;
-        align-items: center;
-        grid-template-rows: auto auto auto auto auto auto;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "livingroomPhoto"
-        "livingroomContent" 
-        "patriotsPhoto"
-        "patriotsContent"
-        "streetPhoto"
-        "streetContent";
     }
     .carousel-control-prev-icon {
         background-image: url(../images/eva_arrow-ios-back-outline.png)!important;
